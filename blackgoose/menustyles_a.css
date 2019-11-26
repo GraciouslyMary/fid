@@ -3,12 +3,13 @@ body {
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #f6ddcc
+  background: #f6ddcc;
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
+  background-color: rgba (255, 255, 255, .5);
 }
 a {
   text-decoration: none;
