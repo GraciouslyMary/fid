@@ -52,6 +52,9 @@ dt {
 dt strong {
   color: tomato;
 }
+dl {
+  margin: 0 15% 0;
+}
 strong {
   font-style: italic;
 }
