@@ -44,6 +44,9 @@ a:active {
 }
 p {
   margin: 2% 15% 2%;
+}
+footer {
   border-bottom: 1px solid #57b1dc;
+  margin: 0 15% 0;
 }
 
