@@ -2,13 +2,13 @@ body {
   background-color: #F6DDCC;
   margin: 0 10%;
   font-family: sans-serif;
-  text-align: center;
+  font-size: 100%;
   }
 h1 {
   text-align: center;
   text-shadow: .05em .05em .1em lightslategray;
   font-family: 'Yesteryear', cursive;
-  font-size: large;
+  font-size: larger;
   font-weight: normal;
   border-bottom: 1px solid #57b1dc;
   margin-top: 30px;
