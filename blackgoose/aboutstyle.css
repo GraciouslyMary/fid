@@ -44,8 +44,6 @@ a:active {
 }
 p {
   margin: 2% 15% 2%;
+  border-bottom: 1px solid #57b1dc;
 }
-footer {
- border-top: 1px solid #57b1dc;
- margin: 0 15% 0;
-}
+
