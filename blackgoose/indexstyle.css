@@ -47,3 +47,6 @@ a:active {
   color: #f0f;
   background-color: #fff;
 }
+h2 p {
+  text-align: center;
+}
