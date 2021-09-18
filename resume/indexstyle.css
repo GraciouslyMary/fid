@@ -1,16 +1,14 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: #fff;
-  background-image: linear-gradient(#B287A3, #7E4E60, #482728); 
+  background-image: linear-gradient(#b190ba, #e8b595); 
   margin: 0 15% 0;
   font-size: 100%;
   line-height: 150%;
   box-sizing: border-box;
 }
 header {
-  background-color: #b2ac87;
   text-align: center;
-  padding: 10px;
 }
 h3 {
   font-style: italic;
