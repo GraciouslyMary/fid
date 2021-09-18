@@ -30,7 +30,7 @@ body {
 header {
   text-align: left;
 }
-/**.overlay {
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;
@@ -73,7 +73,7 @@ header {
     top: 15px;
     right: 35px;
   }
-}**/
+}
 h3 {
   font-style: italic;
 }
