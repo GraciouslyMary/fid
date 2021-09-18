@@ -1,13 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
-  background: linear-gradient(-45deg, #FF897B, #FFA291, #FF66C4, #FF3E89);
+  background: linear-gradient(-45deg, #EF709B, #E33863, #FA9372);
   background-size: 200% 200%;
   margin: 0 15% 0;
   font-size: 100%;
   line-height: 150%;
   box-sizing: border-box;
-  animation: gradient 10s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
