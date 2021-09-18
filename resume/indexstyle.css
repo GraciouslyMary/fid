@@ -1,7 +1,8 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: #fff;
-  background-image: linear-gradient(#b190ba, #e8b595); 
+  background: linear-gradient(#b190ba, #e8b595); 
+  background-size: 400% 400%;
   margin: 0 15% 0;
   font-size: 100%;
   line-height: 150%;
@@ -21,7 +22,7 @@ body {
   }
 }
 header {
-  text-align: center;
+  text-align: left;
 }
 h3 {
   font-style: italic;
