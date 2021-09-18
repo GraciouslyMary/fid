@@ -30,7 +30,7 @@ body {
 header {
   text-align: left;
 }
-overlay {
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;
@@ -42,14 +42,14 @@ overlay {
   overflow-x: hidden;
   transition: 0.5s;
 }
-overlay-content {
+.overlay-content {
   position: relative;
   top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
 }
-overlay a {
+.overlay a {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
@@ -57,10 +57,10 @@ overlay a {
   display: block;
   transition: 0.3s;
 }
-overlay a:hover, .overlay a:focus {
+.overlay a:hover, .overlay a:focus {
   color: #f1f1f1
 }
-overlay .closebtn {
+.overlay .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;
