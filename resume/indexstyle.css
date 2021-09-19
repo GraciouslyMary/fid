@@ -74,6 +74,9 @@ body {
   top: 15px;
   right: 35px;
   }
+* {
+  box-sizing: border-box;
+}
 .container {
   position: relative;
   float: left;
