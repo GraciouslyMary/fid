@@ -58,9 +58,10 @@ body {
   color: #f1f1f1;
 }
 .overlay-button {
-  position: relative;
-  top: 50px;
-  right: 100px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 .overlay .closebtn {
   position: absolute;
@@ -71,6 +72,11 @@ body {
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
+  .overlay-button {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
