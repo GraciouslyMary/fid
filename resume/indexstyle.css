@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -74,9 +77,6 @@ body {
   top: 15px;
   right: 35px;
   }
-* {
-  box-sizing: border-box;
-}
 .container {
   position: relative;
   float: left;
