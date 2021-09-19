@@ -69,14 +69,21 @@ body {
   right: 45px;
   font-size: 60px;
 }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+.overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
   }
 .container {
   position: relative;
-  width: 50%;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .image {
   display: block;
@@ -123,6 +130,9 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+  .container {
+    width: 100%;
   }
 }
 header {
