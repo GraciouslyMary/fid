@@ -32,7 +32,7 @@ body {
 }
 .overlay {
   height: 0%;
-  /**width: 100%;**/
+  width: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -45,7 +45,7 @@ body {
 .overlay-content {
   position: relative;
   top: 25%;
-  /**width: 100%;**/
+  width: 100%;
   text-align: center;
   margin-top: 30px;
 }
