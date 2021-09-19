@@ -28,7 +28,10 @@ body {
   }
 }
 .myNav {
-  text-align: left;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 .overlay {
   height: 0%;
