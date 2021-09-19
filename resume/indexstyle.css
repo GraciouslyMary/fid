@@ -57,6 +57,11 @@ body {
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
+.overlay-button {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+}
 .overlay .closebtn {
   position: absolute;
   top: 20px;
