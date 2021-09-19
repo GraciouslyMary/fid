@@ -72,11 +72,11 @@ body {
   right: 45px;
   font-size: 60px;
 }
-.overlay .closebtn {
+/**.overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
-  }
+  }**/
 .container {
   position: relative;
   float: left;
