@@ -81,7 +81,7 @@ body {
   position: relative;
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 20px;
 }
 .row::after {
   content: "";
