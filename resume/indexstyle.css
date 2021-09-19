@@ -27,12 +27,6 @@ body {
     background-position: 0% 50%;
   }
 }
-.myNav {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
 .overlay {
   height: 0%;
   width: 100%;
