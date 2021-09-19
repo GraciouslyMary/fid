@@ -27,9 +27,6 @@ body {
     background-position: 0% 50%;
   }
 }
-header {
-  text-align: left;
-}
 .overlay {
   height: 100%;
   width: 0;
@@ -73,6 +70,9 @@ header {
     top: 15px;
     right: 35px;
   }
+}
+header {
+  text-align: left;
 }
 h3 {
   font-style: italic;
