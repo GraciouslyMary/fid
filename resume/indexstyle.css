@@ -92,13 +92,13 @@ body {
   clear: both;
   display: table;
 }
-/**.image {
+.image {
   display: block;
   width: 100%;
   height: auto;
   padding: 0 .2em 0 .2em;
   border-radius: 2em; 
-}**/
+}
 .works-overlay {
   position: absolute;
   bottom: 100%;
