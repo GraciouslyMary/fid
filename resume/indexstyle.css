@@ -9,7 +9,7 @@ body {
   margin: 0 15% 0;
   font-size: 100%;
   line-height: 150%;
-  box-sizing: border-box;
+  /**box-sizing: border-box;**/
   animation: gradient 15s ease infinite;
 }
 
@@ -77,23 +77,28 @@ body {
   top: 15px;
   right: 35px;
   }**/
-.container {
+/**.container {
   position: relative;
   float: left;
   width: 33.33%;
+}**/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-.image {
+/**.image {
   display: block;
   width: 100%;
   height: auto;
   padding: 0 .2em 0 .2em;
   border-radius: 2em; 
-}
+}**/
 .works-overlay {
   position: absolute;
   bottom: 100%;
@@ -123,7 +128,7 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 500px) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
   .overlay-button {
@@ -131,9 +136,10 @@ body {
     top: 15px;
     right: 35px;
   }
-  .container {
+}
+@media screen and (max-width: 500px) {
+  .column {
     width: 100%;
-  }
 }
 header {
   text-align: left;
