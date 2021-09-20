@@ -131,13 +131,8 @@ body {
     top: 15px;
     right: 35px;
   }
-  /**.container {
+  .container {
     width: 100%;
-  }**/
-  .works-overlay {overflow-y: auto;}
-  .works-text {font-size: 20px}
-  .image {
-    width: 100%
   }
 }
 header {
