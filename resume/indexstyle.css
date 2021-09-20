@@ -126,7 +126,7 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 1000px) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
   .overlay-button {
@@ -135,7 +135,7 @@ body {
     right: 35px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
 }
